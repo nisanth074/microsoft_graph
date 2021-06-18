@@ -2,9 +2,22 @@
 
 Ruby gem for Microsoft Graph API
 
+## Installation
+
+Add the gem to your Rails app's Gemfile
+
+```ruby
+gem "microsoft_graph", git: "https://github.com/nisanth074/microsoft_graph", branch: "main"
+```
+
+and bundle install
+
+```bash
+bundle install
+```
+
 ## Todos
 
-- Add a gemspec file
-- Add Installation instructions
+- Add a license
 - Add usage examples
 - Port tests from the app
