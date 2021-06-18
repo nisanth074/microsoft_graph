@@ -1,3 +1,14 @@
+require "microsoft_graph/version"
+
+require "microsoft_graph/resource"
+require "microsoft_graph/resource_collection"
+
+require "microsoft_graph/upload_session"
+require "microsoft_graph/message"
+require "microsoft_graph/subscription"
+
+require "microsoft_graph/message_collection"
+
 class MicrosoftGraph
   attr_reader :oauth_authorization
 
