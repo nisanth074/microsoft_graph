@@ -1,4 +1,4 @@
-# gmail
+# microsoft_graph
 
 Ruby gem for Microsoft Graph API
 
