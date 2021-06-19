@@ -18,6 +18,7 @@ bundle install
 
 ## Todos
 
-- Add a license
 - Add usage examples
 - Port tests from the app
+- Add a license
+- Publish to rubygems.org
