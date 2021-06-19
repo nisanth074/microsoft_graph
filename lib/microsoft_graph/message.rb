@@ -54,12 +54,16 @@ class MicrosoftGraph
       "/me/messages/#{id}"
     end
 
-    def received_at
-      Time.parse(hash["receivedDateTime"])
+    def subject
+      hash["subject"]
     end
 
     def sender_email
       hash["sender"]["emailAddress"]["address"]
+    end
+
+    def received_at
+      Time.parse(hash["receivedDateTime"])
     end
 
     def draft?

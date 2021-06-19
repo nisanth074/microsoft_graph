@@ -52,8 +52,7 @@ class MicrosoftGraph
     Hooligan.delete(url, headers: authorization_headers)
   end
 
-  def most_recent_message
-    Message.most_recent(self)
+  def messages
   end
 
   def messages_received_after(time)
@@ -63,6 +62,10 @@ class MicrosoftGraph
   # @todo Add rspecs for this method
   def find_message_by_message_id(message_id)
     Message.find_by_message_id(self, message_id)
+  end
+
+  def most_recent_message
+    Message.most_recent(self)
   end
 
   def create_message(message_hash)
